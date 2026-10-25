@@ -36,9 +36,9 @@
   },
   "packageManager": "pnpm@10.20.0",
   "devDependencies": {
-    "@types/node": "22.10.2",
+    "@types/node": "26.6.5",
     "ajv": "8.20.0",
     "fast-xml-parser": "5.11.2",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   }
 }
