@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fdx-scene-numbers",
+  "format": "fdx",
+  "writerBehavior": "Preserve scene numbers 7 and 7A on their corresponding headings.",
+  "portability": [
+    {
+      "id": "scene-numbers",
+      "classification": "expected_to_transfer",
+      "title": "Scene numbering"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 2
+  }
+}

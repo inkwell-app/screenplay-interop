@@ -1,0 +1,17 @@
+{
+  "fixtureId": "fountain-dual-dialogue",
+  "format": "fountain",
+  "writerBehavior": "Keep the two speakers paired as simultaneous dialogue after import and export.",
+  "portability": [
+    {
+      "id": "dual-dialogue",
+      "classification": "expected_to_transfer",
+      "title": "Dual dialogue"
+    }
+  ],
+  "counts": {
+    "scenes": 1,
+    "dialogueBlocks": 2,
+    "dualDialogueBlocks": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fountain-forced-elements",
+  "format": "fountain",
+  "writerBehavior": "Recognize forced scene headings, action, mixed-case character cues, and transitions.",
+  "portability": [
+    {
+      "id": "forced-elements",
+      "classification": "expected_to_transfer",
+      "title": "Forced screenplay elements"
+    }
+  ],
+  "counts": {
+    "scenes": 1,
+    "dialogueBlocks": 1
+  }
+}

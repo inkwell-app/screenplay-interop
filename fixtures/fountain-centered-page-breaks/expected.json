@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fountain-centered-page-breaks",
+  "format": "fountain",
+  "writerBehavior": "Render the centered line and explicit page break as layout instructions.",
+  "portability": [
+    {
+      "id": "centered-page-breaks",
+      "classification": "transfers_with_visible_difference",
+      "title": "Centering and page breaks"
+    }
+  ],
+  "counts": {
+    "scenes": 1,
+    "pageBreaks": 1
+  }
+}

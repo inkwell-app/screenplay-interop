@@ -1,0 +1,18 @@
+{
+  "fixtureId": "fdx-omitted-scenes",
+  "format": "fdx",
+  "writerBehavior": "Keep the omitted scene 8 placeholder and the following scene 9 number.",
+  "portability": [
+    {
+      "id": "omitted-scenes",
+      "classification": "preserved_as_data_with_changed_controls",
+      "title": "Omitted scenes"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 2,
+    "omittedScenes": 1,
+    "lockedScenes": 1
+  }
+}

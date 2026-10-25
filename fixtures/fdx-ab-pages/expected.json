@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fdx-ab-pages",
+  "format": "fdx",
+  "writerBehavior": "Keep the page labels 3, 3A, and 3B distinct when inspecting or transferring inserted pages.",
+  "portability": [
+    {
+      "id": "ab-pages",
+      "classification": "likely_lossy",
+      "title": "Inserted A/B pages"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "fixtureId": "fdx-malformed-recoverable",
+  "format": "fdx",
+  "writerBehavior": "Report the unclosed Text and Paragraph elements as malformed input; present a recoverable error to the writer.",
+  "portability": [
+    {
+      "id": "malformed-recoverable",
+      "classification": "unknown",
+      "title": "Malformed XML handling"
+    }
+  ],
+  "health": "malformed"
+}

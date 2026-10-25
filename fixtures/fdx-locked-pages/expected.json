@@ -1,0 +1,17 @@
+{
+  "fixtureId": "fdx-locked-pages",
+  "format": "fdx",
+  "writerBehavior": "Retain page 3’s lock marker and the locked scene number when the destination supports production locks.",
+  "portability": [
+    {
+      "id": "locked-pages",
+      "classification": "likely_lossy",
+      "title": "Locked production pages"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 1,
+    "lockedScenes": 1
+  }
+}

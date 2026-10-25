@@ -1,0 +1,17 @@
+{
+  "fixtureId": "fdx-custom-styles",
+  "format": "fdx",
+  "writerBehavior": "Identify the custom Weather Cue paragraph and preserve its words when mapping its style.",
+  "portability": [
+    {
+      "id": "custom-styles",
+      "classification": "unknown",
+      "title": "Custom paragraph styles"
+    }
+  ],
+  "health": "readable_with_warnings",
+  "counts": {
+    "scenes": 1,
+    "unrecognizedParagraphTypes": 1
+  }
+}

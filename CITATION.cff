@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: screenplay-interop
+message: If you use these fixtures, please cite this repository.
+type: software
+authors:
+  - name: Inkwell
+    website: https://www.inkwell.software
+repository-code: https://github.com/inkwell-app/screenplay-interop
+url: https://www.inkwell.software/resources/interop
+abstract: >-
+  Original fictional Fountain 1.1 and Final Draft (FDX) interoperability
+  fixtures, schema validation, and expected behavior for screenplay tools.
+license: MIT
+keywords:
+  - fountain
+  - fdx
+  - final-draft
+  - screenplay
+  - interoperability
+  - conformance

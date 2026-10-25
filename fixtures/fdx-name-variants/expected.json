@@ -1,0 +1,33 @@
+{
+  "fixtureId": "fdx-name-variants",
+  "format": "fdx",
+  "writerBehavior": "Offer DR. MAYA and MAYA (V.O.) as related name variants while preserving both original cues.",
+  "portability": [
+    {
+      "id": "name-variants",
+      "classification": "expected_to_transfer",
+      "title": "Character name variants"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 1,
+    "dialogueBlocks": 2
+  },
+  "nameVariants": [
+    {
+      "kind": "character",
+      "canonicalHint": "MAYA",
+      "variants": [
+        {
+          "value": "DR. MAYA",
+          "count": 1
+        },
+        {
+          "value": "MAYA (V.O.)",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

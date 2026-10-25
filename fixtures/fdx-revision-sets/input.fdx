@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinalDraft DocumentType="Script" Version="5">
+  <Content>
+    <Paragraph Type="Scene Heading"><Text>INT. WEATHER STATION - DAWN</Text></Paragraph>
+    <Paragraph Type="Action" RevisionID="1" Revised="Blue"><Text>Mira ties a ribbon around the antenna.</Text></Paragraph>
+  </Content>
+  <Revisions ActiveSet="1" RevisionMode="Yes">
+    <Revision ID="1" Name="Blue" Mark="*" Color="#00000000FFFF"/>
+    <Revision ID="2" Name="Pink" Mark="*" Color="#FFFF0000FFFF"/>
+  </Revisions>
+</FinalDraft>

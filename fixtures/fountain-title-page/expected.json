@@ -1,0 +1,15 @@
+{
+  "fixtureId": "fountain-title-page",
+  "format": "fountain",
+  "writerBehavior": "Keep title, author, credit, draft date, and contact fields on the title page.",
+  "portability": [
+    {
+      "id": "title-page",
+      "classification": "expected_to_transfer",
+      "title": "Title-page metadata"
+    }
+  ],
+  "counts": {
+    "scenes": 1
+  }
+}

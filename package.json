@@ -1,0 +1,44 @@
+{
+  "name": "@inkwell/screenplay-interop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original Fountain and Final Draft (FDX) screenplay test files, portability expectations, JSON schemas, and a local fixture-validation runner.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inkwell-app/screenplay-interop.git"
+  },
+  "homepage": "https://www.inkwell.software/resources/interop",
+  "files": [
+    "assets",
+    "fixtures",
+    "schemas",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md",
+    "CITATION.cff",
+    "CHANGELOG.md",
+    "llms.txt"
+  ],
+  "scripts": {
+    "test": "node src/check-boundary.ts && node --test src/*.test.ts && node src/cli.ts check && node src/cli.ts generate",
+    "check": "node src/cli.ts check",
+    "generate:compatibility": "node src/cli.ts generate",
+    "typecheck": "tsc --noEmit",
+    "smoke:package": "node src/package-smoke.ts"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "ajv": "8.20.0",
+    "fast-xml-parser": "5.11.2",
+    "typescript": "5.9.3"
+  }
+}

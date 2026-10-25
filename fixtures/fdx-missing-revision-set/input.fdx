@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinalDraft DocumentType="Script" Version="5">
+  <Content>
+    <Paragraph Type="Scene Heading"><Text>INT. WEATHER STATION - DAWN</Text></Paragraph>
+    <Paragraph Type="Action" RevisionID="9"><Text>The mast casts two shadows.</Text></Paragraph>
+  </Content>
+  <Revisions ActiveSet="1" RevisionMode="Yes">
+    <Revision ID="1" Name="Blue" Mark="*" Color="#00000000FFFF"/>
+  </Revisions>
+</FinalDraft>

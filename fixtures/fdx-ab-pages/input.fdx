@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinalDraft DocumentType="Script" Version="5">
+  <Content>
+    <Paragraph Type="Scene Heading"><Text>INT. WEATHER STATION - DAWN</Text></Paragraph>
+    <Paragraph Type="Action"><Text>Three loose pages arrive with the same forecast.</Text></Paragraph>
+  </Content>
+  <LockedPages><Page Number="3"/><Page Number="3A"/><Page Number="3B"/></LockedPages>
+</FinalDraft>

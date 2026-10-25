@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/inkwell-app/screenplay-interop/schemas/fixture.schema.json",
+  "title": "screenplay-interop fixture directory",
+  "description": "Required files and format for one screenplay test case.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "format", "files"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "format": {
+      "type": "string",
+      "enum": ["fountain", "fdx"]
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["readme", "input", "expected", "copyright"],
+      "properties": {
+        "readme": {
+          "const": "README.md"
+        },
+        "input": {
+          "type": "string",
+          "enum": ["input.fountain", "input.fdx"]
+        },
+        "expected": {
+          "const": "expected.json"
+        },
+        "copyright": {
+          "const": "copyright.md"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "format": {
+            "const": "fdx"
+          }
+        },
+        "required": ["format"]
+      },
+      "then": {
+        "properties": {
+          "files": {
+            "type": "object",
+            "properties": {
+              "input": {
+                "const": "input.fdx"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "format": {
+            "const": "fountain"
+          }
+        },
+        "required": ["format"]
+      },
+      "then": {
+        "properties": {
+          "files": {
+            "type": "object",
+            "properties": {
+              "input": {
+                "const": "input.fountain"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

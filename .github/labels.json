@@ -1,0 +1,24 @@
+[
+  {
+    "name": "interop",
+    "color": "635BFF",
+    "description": "A screenplay interchange case or behavior"
+  },
+  {
+    "name": "bug",
+    "color": "D73A4A",
+    "description": "An incorrect fixture, schema or validation result"
+  },
+  {
+    "name": "documentation",
+    "color": "0075CA",
+    "description": "Improve examples and instructions"
+  },
+  { "name": "enhancement", "color": "A2EEEF", "description": "Add a useful case or capability" },
+  {
+    "name": "good first issue",
+    "color": "7057FF",
+    "description": "A scoped task with enough context to start"
+  },
+  { "name": "dependencies", "color": "0366D6", "description": "Dependency updates" }
+]

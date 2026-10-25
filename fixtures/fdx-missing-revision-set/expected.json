@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fdx-missing-revision-set",
+  "format": "fdx",
+  "writerBehavior": "Report the paragraph’s reference to revision set 9, which has no definition.",
+  "portability": [
+    {
+      "id": "missing-revision-set",
+      "classification": "unknown",
+      "title": "Missing revision definition"
+    }
+  ],
+  "health": "readable_with_warnings",
+  "counts": {
+    "scenes": 1
+  }
+}

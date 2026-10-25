@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fountain-notes-sections-boneyard",
+  "format": "fountain",
+  "writerBehavior": "Keep notes, sections, synopses, and omitted text separate from spoken dialogue.",
+  "portability": [
+    {
+      "id": "notes-sections-boneyard",
+      "classification": "preserved_as_data_with_changed_controls",
+      "title": "Notes and outline structure"
+    }
+  ],
+  "counts": {
+    "scenes": 1,
+    "dialogueBlocks": 1
+  }
+}

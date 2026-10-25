@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fountain-1-1-core",
+  "format": "fountain",
+  "writerBehavior": "Keep headings, action, character cues, parentheticals, dialogue, and transitions distinct.",
+  "portability": [
+    {
+      "id": "1-1-core",
+      "classification": "expected_to_transfer",
+      "title": "Core screenplay elements"
+    }
+  ],
+  "counts": {
+    "scenes": 2,
+    "dialogueBlocks": 1
+  }
+}

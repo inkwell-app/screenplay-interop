@@ -1,0 +1,28 @@
+# screenplay-interop
+
+> Original fictional Fountain 1.1 and Final Draft (FDX) files for testing screenplay interchange.
+
+Each fixture includes an input file, expected behavior, a writer-facing
+explanation, and an authorship statement. The runner validates the collection
+and generates its case catalog. Developers can use the cases in their own
+parser, importer, and export tests.
+
+## Read and use
+
+- [Repository](https://github.com/inkwell-app/screenplay-interop): source, setup, and contribution guide.
+- [Case catalog](https://github.com/inkwell-app/screenplay-interop/blob/main/docs/compatibility.md): fixture expectations and portability classes.
+- [Interoperability guide](https://www.inkwell.software/resources/interop): screenplay handoff guidance.
+- [FDX Inspector](https://www.inkwell.software/tools/fdx-inspector): inspect a file in the browser.
+
+## Fixture IDs
+
+Stable directories use fixtures/<id>/. See the README catalog for the cases.
+The fixture inputs are original fiction licensed under MIT.
+
+## Portability classes
+
+expected_to_transfer
+transfers_with_visible_difference
+preserved_as_data_with_changed_controls
+likely_lossy
+unknown

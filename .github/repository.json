@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "description": "Fountain and Final Draft (FDX) interoperability fixtures and schema-validated expectations for screenplay tools.",
+    "homepage": "https://www.inkwell.software/resources/interop",
+    "default_branch": "main",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "has_discussions": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_rebase_merge": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true,
+    "allow_update_branch": true,
+    "squash_merge_commit_title": "PR_TITLE",
+    "squash_merge_commit_message": "PR_BODY"
+  },
+  "topics": [
+    "fountain",
+    "fdx",
+    "final-draft",
+    "screenplay",
+    "screenwriting",
+    "interoperability",
+    "fixtures",
+    "screenplay-format",
+    "xml"
+  ]
+}

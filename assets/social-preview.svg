@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Inkwell screenplay-interop</title>
+  <desc id="desc">Test the handoff. Keep the story. Original Fountain and Final Draft test files, expected behavior, and local validation.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1222"/><stop offset="1" stop-color="#142b3d"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#34d399"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <path d="M64 140H1216" stroke="#334155"/>
+  <g fill="#f1f5f9" font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="99" font-size="32" font-weight="700" letter-spacing="-1">Inkwell</text>
+    <text x="1216" y="96" font-size="18" fill="#a5b9ca" text-anchor="end">screenplay-interop</text>
+    <text x="64" y="238" font-size="60" font-weight="700" letter-spacing="-2">Test the handoff.</text>
+    <text x="64" y="308" font-size="60" font-weight="700" letter-spacing="-2">Keep the story.</text>
+    <text x="64" y="365" font-size="23" fill="#cbd5e1">Fountain and Final Draft test files for screenplay tools.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="64" y="427" width="340" height="111" rx="12" fill="#142235" stroke="#35506a"/>
+    <rect x="470" y="427" width="340" height="111" rx="12" fill="#142235" stroke="#35506a"/>
+    <rect x="876" y="427" width="340" height="111" rx="12" fill="#142235" stroke="#35506a"/>
+    <path d="M404 483H462M810 483H868" stroke="url(#line)" stroke-width="3"/>
+    <path d="m452 475 10 8-10 8m406-16 10 8-10 8" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <g fill="#34d399" font-size="14" letter-spacing="2"><text x="88" y="459">01 / INPUT</text><text x="494" y="459">02 / EXPECTATION</text><text x="900" y="459">03 / CHECK</text></g>
+    <g fill="#f1f5f9" font-size="22" font-weight="700"><text x="88" y="504">Original fictional files</text><text x="494" y="504">Writer-facing behavior</text><text x="900" y="504">Run locally. Reuse freely.</text></g>
+    <text x="64" y="596" fill="#94a3b8" font-size="17">inkwell.software</text>
+    <text x="1216" y="596" fill="#94a3b8" font-size="17" text-anchor="end">MIT · JSON schemas · Stable fixture paths</text>
+  </g>
+</svg>

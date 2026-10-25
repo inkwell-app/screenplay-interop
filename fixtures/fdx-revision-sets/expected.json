@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fdx-revision-sets",
+  "format": "fdx",
+  "writerBehavior": "Keep both revision sets, their colors, and the action paragraph’s revision reference.",
+  "portability": [
+    {
+      "id": "revision-sets",
+      "classification": "preserved_as_data_with_changed_controls",
+      "title": "Revision sets and colors"
+    }
+  ],
+  "health": "readable",
+  "counts": {
+    "scenes": 1
+  }
+}

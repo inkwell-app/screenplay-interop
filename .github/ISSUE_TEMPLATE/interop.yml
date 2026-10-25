@@ -1,0 +1,64 @@
+name: Screenplay interchange case
+description: Suggest an example or report a difference between screenplay tools
+title: "[interop] "
+labels: [interop]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would you like to improve?
+      options:
+        - Add a fixture
+        - Correct an expectation
+        - Report a parser or importer difference
+    validations:
+      required: true
+  - type: input
+    id: fixture
+    attributes:
+      label: Fixture ID
+      placeholder: fdx-locked-pages
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+      description: Describe the expected result and what you observed. For a new fixture, describe the behavior it should cover.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool and version
+      description: Name the parser, importer or application and its tested version. Use N/A for a new fixture suggestion.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Fixture revision
+      description: Provide the release tag or full repository commit SHA. Use N/A for a new fixture suggestion.
+    validations:
+      required: true
+  - type: input
+    id: input_hash
+    attributes:
+      label: Input SHA-256
+      description: Use the input fingerprint in the matching release's compatibility catalog, or hash your modified input. Use N/A for a new fixture suggestion.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the import/export commands or actions and relevant settings. For a new fixture, describe how someone would test it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: copyright
+    attributes:
+      label: Example files
+      options:
+        - label: Any attached input is original fiction that I have the right to share.
+          required: true

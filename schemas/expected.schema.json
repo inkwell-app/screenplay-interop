@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/inkwell-app/screenplay-interop/schemas/expected.schema.json",
+  "title": "screenplay-interop expected.json",
+  "description": "Screenplay test-case expectations: file health, inventory, name variants, and portability classifications.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fixtureId", "format", "writerBehavior", "portability"],
+  "allOf": [
+    {
+      "$comment": "FDX cases include a file-health expectation. Fountain cases do not require one.",
+      "if": {
+        "properties": {
+          "format": {
+            "const": "fdx"
+          }
+        },
+        "required": ["format"]
+      },
+      "then": {
+        "properties": {
+          "health": {}
+        },
+        "required": ["health"]
+      }
+    }
+  ],
+  "properties": {
+    "fixtureId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "format": {
+      "type": "string",
+      "enum": ["fountain", "fdx"]
+    },
+    "writerBehavior": {
+      "type": "string",
+      "minLength": 8,
+      "description": "One or two sentences a writer would recognize."
+    },
+    "health": {
+      "type": "string",
+      "enum": ["readable", "readable_with_warnings", "malformed", "unsupported_container"]
+    },
+    "portability": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "classification", "title"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classification": {
+            "type": "string",
+            "enum": [
+              "expected_to_transfer",
+              "transfers_with_visible_difference",
+              "preserved_as_data_with_changed_controls",
+              "likely_lossy",
+              "unknown"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "possible_text_loss",
+              "production_state_loss",
+              "pagination_risk",
+              "reporting_inconsistency",
+              "cosmetic_difference",
+              "informational"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "detail": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "description": "Optional expected inventory counts, such as scenes and dialogue blocks.",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "nameVariants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "canonicalHint", "variants"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["character", "location"]
+          },
+          "canonicalHint": {
+            "type": "string"
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["value", "count"],
+              "additionalProperties": false,
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

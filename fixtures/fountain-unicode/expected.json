@@ -1,0 +1,16 @@
+{
+  "fixtureId": "fountain-unicode",
+  "format": "fountain",
+  "writerBehavior": "Preserve accented names, Japanese and Korean text, curly quotation marks, and punctuation.",
+  "portability": [
+    {
+      "id": "unicode",
+      "classification": "expected_to_transfer",
+      "title": "Unicode text"
+    }
+  ],
+  "counts": {
+    "scenes": 1,
+    "dialogueBlocks": 2
+  }
+}
