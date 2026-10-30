@@ -1,7 +1,7 @@
+# One monthly version-update PR across packages and GitHub Actions.
+# Security fixes bypass the schedule/cooldown and are grouped per ecosystem.
 version: 2
 
-# One reviewable monthly bundle across packages and GitHub Actions. A monthly
-# schedule alone does not group updates or suppress the initial scan.
 multi-ecosystem-groups:
   dependencies:
     schedule:
@@ -9,13 +9,19 @@ multi-ecosystem-groups:
     open-pull-requests-limit: 1
     commit-message:
       prefix: chore(deps)
+    labels:
+      - dependencies
 
 updates:
-  # Dependabot uses the npm ecosystem for pnpm and updates pnpm-lock.yaml.
   - package-ecosystem: npm
     directory: /
     patterns: ["*"]
     multi-ecosystem-group: dependencies
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 7
+      semver-patch-days: 3
     groups:
       npm-security:
         applies-to: security-updates
@@ -24,6 +30,8 @@ updates:
     directory: /
     patterns: ["*"]
     multi-ecosystem-group: dependencies
+    cooldown:
+      default-days: 7
     groups:
       actions-security:
         applies-to: security-updates
