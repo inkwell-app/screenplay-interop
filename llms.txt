@@ -11,7 +11,7 @@ parser, importer, and export tests.
 
 - [Repository](https://github.com/inkwell-app/screenplay-interop): source, setup, and contribution guide.
 - [Case catalog](https://github.com/inkwell-app/screenplay-interop/blob/main/docs/compatibility.md): fixture expectations and portability classes.
-- [Interoperability guide](https://www.inkwell.software/resources/interop): screenplay handoff guidance.
+- [Interoperability guide](https://www.inkwell.software/resources/interop?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=llms_interop_guide&utm_id=github_screenplay_interop&utm_source_platform=github): screenplay handoff guidance.
 - [FDX Inspector](https://www.inkwell.software/tools/fdx-inspector): inspect a file in the browser.
 
 ## Fixture IDs
