@@ -148,6 +148,16 @@ Explore the [interoperability guide](https://www.inkwell.software/resources/inte
 [Fountain validator](https://www.inkwell.software/tools/fountain-validator?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_fountain_validator&utm_id=github_screenplay_interop&utm_source_platform=github),
 and [Screenplay Diff](https://www.inkwell.software/tools/screenplay-diff?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=footer_screenplay_diff&utm_id=github_screenplay_interop&utm_source_platform=github).
 
+| When you need to | Go to |
+| --- | --- |
+| Open an FDX without Final Draft, export it to PDF, or turn a PDF into Fountain | [Screenplay converter](https://www.inkwell.software/tools/screenplay-converter?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_screenplay_converter&utm_id=github_screenplay_interop&utm_source_platform=github) |
+| Inspect FDX files in a terminal or CI job | [FDX Inspect](https://github.com/inkwell-app/fdx-inspect) |
+| Load these fixtures with the `datasets` library | [Hugging Face mirror](https://huggingface.co/datasets/Inkwell-Software/screenplay-interop-fixtures) |
+| Check how a formatting case should look on the page | [Screenplay formatting guide](https://www.inkwell.software/resources/screenplay-formatting?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_formatting&utm_id=github_screenplay_interop&utm_source_platform=github) |
+| Deliver production pages with scene numbers and revisions | [FDX handoff](https://www.inkwell.software/learn/fdx-handoff?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_fdx_handoff&utm_id=github_screenplay_interop&utm_source_platform=github) |
+| Move a script out of Final Draft | [Switch from Final Draft](https://www.inkwell.software/resources/migrate/from-final-draft?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_migrate_final_draft&utm_id=github_screenplay_interop&utm_source_platform=github) |
+| Look up a term | [Fountain](https://www.inkwell.software/glossary/fountain?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_glossary_fountain&utm_id=github_screenplay_interop&utm_source_platform=github) · [FDX](https://www.inkwell.software/glossary/fdx?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_glossary_fdx&utm_id=github_screenplay_interop&utm_source_platform=github) · [Revision colors](https://www.inkwell.software/glossary/revision-colors?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_glossary_revision_colors&utm_id=github_screenplay_interop&utm_source_platform=github) · [A-pages](https://www.inkwell.software/glossary/a-pages?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_content=related_glossary_a_pages&utm_id=github_screenplay_interop&utm_source_platform=github) |
+
 ## License
 
 [MIT](LICENSE) for the runner, schemas, and original fictional fixtures.

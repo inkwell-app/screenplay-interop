@@ -1,7 +1,7 @@
 {
   "settings": {
     "description": "Fountain and Final Draft (FDX) interoperability fixtures and schema-validated expectations for screenplay tools.",
-    "homepage": "https://www.inkwell.software/resources/interop",
+    "homepage": "https://www.inkwell.software/resources/interop?utm_source=github&utm_medium=referral&utm_campaign=screenplay_interop&utm_id=github_screenplay_interop&utm_source_platform=github&utm_content=repository_homepage",
     "default_branch": "main",
     "has_issues": true,
     "has_wiki": false,
@@ -25,6 +25,7 @@
     "interoperability",
     "fixtures",
     "screenplay-format",
-    "xml"
+    "xml",
+    "inkwell"
   ]
 }
