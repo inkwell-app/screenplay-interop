@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.inkwell.software/resources/interop?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=screenplay_interop&amp;utm_content=hero_interop_guide&amp;utm_id=github_screenplay_interop&amp;utm_source_platform=github">
-    <img src="assets/social-preview.svg" alt="Inkwell screenplay-interop — test the handoff, keep the story" width="100%">
+    <img src="assets/social-preview.png" alt="Inkwell screenplay-interop: test the handoff, keep the story. A fixtures panel lists FDX and Fountain test files, each with the result a screenplay tool should keep." width="100%">
   </a>
 </p>
 
