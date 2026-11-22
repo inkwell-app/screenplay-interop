@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What survives a screenplay file transfer? | Inkwell</title>
+<meta name="description" content="A ten-minute lab for screenwriting students: check whether dual dialogue and production scene numbers survive a Fountain or Final Draft transfer."><style>
+  html { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.3rem; font: 1.1rem/1.6 Georgia, serif; }
+  h1, h2 { line-height: 1.2; }
+  pre { white-space: pre-wrap; padding: 1rem; border-inline-start: .25rem solid currentColor; }
+  summary { cursor: pointer; }
+  @media print { body { margin: 0; } }
+</style>
+<main>
+<h1>What survives a screenplay file transfer?</h1>
+<p>A ten-minute lab for screenwriting students. A transfer can preserve every word and still change what the actors do. Use these two short examples to check timing and production numbering.</p>
+<h2>1. Listen for the overlap</h2>
+<pre>INT. SWITCH ROOM - NIGHT
+
+MIRA
+Keep the north line open.
+
+TOMAS ^
+The south line is already ringing.</pre>
+<p>Read this twice with a partner. First take turns. Then have Tomas start while Mira is still speaking. Which reading does the writer specify?</p>
+<details><summary>Check your reading</summary><p>The caret after TOMAS marks dual dialogue in Fountain. Both actors speak at the same time. In a formatted script, look for paired dialogue columns. A conversion that stacks the lines as ordinary turns loses a timing instruction.</p></details>
+<h2>2. Follow the scene numbers</h2>
+<p>A production draft labels the weather station scene <strong>7</strong> and the observatory steps <strong>7A</strong>. The crew has already labeled its notes with those numbers. Predict what happens to those notes if a new editor automatically numbers the scenes 1 and 2.</p>
+<details><summary>Check the handoff</summary><p>These two headings carry the original scene numbers in the FDX file.</p>
+<pre>&lt;SceneProperties Number="7"/&gt;&lt;Text&gt;INT. WEATHER STATION - DAWN&lt;/Text&gt;
+&lt;SceneProperties Number="7A"/&gt;&lt;Text&gt;EXT. OBSERVATORY STEPS - DAY&lt;/Text&gt;</pre>
+<p>Renumbering the headings breaks the link to the crew’s notes. Check both labels before circulating the new draft.</p></details>
+<h2>Try it in your editor</h2>
+<p>Download the <a href="https://raw.githubusercontent.com/inkwell-app/screenplay-interop/49344a5e29e2e0348a2661fa645106ca278e1f20/fixtures/fountain-dual-dialogue/input.fountain">Fountain scene</a> and <a href="https://raw.githubusercontent.com/inkwell-app/screenplay-interop/49344a5e29e2e0348a2661fa645106ca278e1f20/fixtures/fdx-scene-numbers/input.fdx">FDX scene</a>. Import a file your editor supports, export it in the same format if available, and reopen it. Record the editor version, what you saw after import, and what survived reopening. If export is unavailable, record that limit.</p>
+<p>For discussion: Which change would a reader notice at a table read? Which would a script supervisor need to catch before the shoot?</p>
+<footer><p>Original scenes by Inkwell. Explore the <a href="https://github.com/inkwell-app/screenplay-interop">sample files and license</a> or consult <a href="https://www.inkwell.software/resources/screenplay-formatting?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=screenplay_interop&amp;utm_content=file_lab_formatting&amp;utm_id=github_screenplay_interop&amp;utm_source_platform=github">Inkwell’s screenplay format reference</a>.</p></footer>
+</main>
+</html>
