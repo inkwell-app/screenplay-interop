@@ -22,6 +22,11 @@ updates:
       semver-major-days: 30
       semver-minor-days: 7
       semver-patch-days: 3
+    # Node types stay on the oldest Node major in package.json engines, so
+    # the code can't use an API that release doesn't have.
+    ignore:
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
     groups:
       npm-security:
         applies-to: security-updates
